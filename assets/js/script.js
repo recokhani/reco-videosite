@@ -110,3 +110,22 @@ document.getElementById('partfo').addEventListener('mouseleave' , ()=>{
 document.querySelector('.iconFootage i').addEventListener('click',()=>{
     document.querySelector('.dropListfootage').classList.toggle('dropListfootageOn')
 })
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

@@ -560,7 +560,7 @@ body{
 }
 .cardFv{
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 
@@ -568,6 +568,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    height: 70px;
+    padding-bottom: 20px;
 }
 .logoBuy i{
     background-color: greenyellow;
@@ -599,6 +601,7 @@ body{
 } 
 .textFv{
    padding: 10px;
+   height: 120px;
   
 }
 .textFv h5 a{
@@ -609,6 +612,9 @@ body{
   color: #000;
   opacity: 80%;
 }
+.textFv p{
+    
+} 
 
 .bgalltextFv{
     display: flex;
@@ -641,6 +647,18 @@ body{
     margin-top: 20px;
     display: none;
     cursor: pointer;
+}
+.btnFv button:hover{
+    background-color:rgb(132, 238, 12) ;
+    
+}
+.btnFv button:focus{
+   outline: 0;
+    
+}
+.btnFv button:active{
+  transform: scale(0.95);
+    
 }
 .btnFv-2{
     text-align: center;
@@ -856,10 +874,138 @@ body{
   
 }
 
+#footageV{
+    padding: 0 40px;
+}
+
+/* ---------bobirs------------------ */
+.contLogoBobir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.textBtnBobir h5{
+    padding-top: 20px;
+}
+.textBtnBobir p{
+    white-space: nowrap;
+}
+.textBtnBobir button{
+    border: 0;
+    background-color:rgb(113, 184, 32) ;
+    color: #fff;
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.textBtnBobir button:hover{
+    
+    background-color:rgb(118, 214, 9) ;
+   
+}
+.textBtnBobir button:focus{
+    outline: 0;
+}
+.textBtnBobir button:active{
+    transform: scale(0.95);
+}
+.contentBobircol-8 h5{
+    font-weight: 400;
+    padding: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+.shadow{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    
+}
+.bg-bobirs{
+    background-color: rgba(255, 255, 255, 0.521);
+}
 
 
+.heightBobir{
+    height: 490px;
+    background-color: #fff;
+    padding: 30px;
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* ----------------selling------------------------- */
+.starrate-1 span{
+    font-size: 14px;
+}
+.starrate-1 img{
+    width: 14px;
+}
+
+#header-selling{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+/* ----------------downloud------------------------- */
+.content-down{
+    display: flex;
+    justify-content: space-between;
+}
+.logoview button{
+    padding: 5px 20px;
+    margin: 30px 25px 0 0;
+    border: none;
+    background-color: #fff;
+    color: rgb(255, 0, 242);
+    border: 1px solid rgb(255, 0, 242);
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.logoview button:hover{
+    box-shadow: 2px 1px 10px rgba(0,0,0,0.3);
+}
+.logoview button:focus{
+  outline: 0;
+}
+.logoview button:active{
+    transform: scale(0.9);
+}
+#selling{
+    margin-top: 180px;
+}
 
 
+/* ---carousle--------------------- */
+.carouselHeder{
+    font-size: 15px;
+}
+.carouselP{
+    font-size: 12px;
+}
+
+
+.owl-dots  {
+    display: none;
+    
+}
+.owl-prev span {
+    display: none;
+}
+.owl-next span {
+    display: none;
+}
+
+
+.textFvc4{
+    text-align: center;
+    margin-top: 150px;
+}
 
 
 

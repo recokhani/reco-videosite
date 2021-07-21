@@ -129,3 +129,30 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+const reco = document.querySelectorAll('.reco span');
+
+reco.forEach(txt =>{
+    txt.innerHTML =txt.innerText
+    
+     .split('')
+     
+    .map((letter,idx)=> `<span style='transition-delay:${idx * 50}ms'>${letter}</span>`)
+    
+     .join('');
+
+   
+});
+
+
+
+const letterLogo = document.querySelectorAll('.reco span span');
+letterLogo.forEach((letter) =>{
+   letter.addEventListener('mouseover' , ()=>{
+    //    letter.style.color='red';
+       letter.classList.toggle('transformUp')
+
+       
+   })
+})

@@ -156,3 +156,115 @@ letterLogo.forEach((letter) =>{
        
    })
 })
+
+document.querySelector('.reco').addEventListener('mouseover',()=>{
+    document.querySelector('.reco span').classList.toggle('rezak')
+})
+
+// ------------------vidoe----------------------
+document.querySelector('.angledownV i').addEventListener('click',()=>{
+    document.querySelector('.listV').classList.toggle('listVonoff')
+})
+document.querySelector('.angledownV i').addEventListener('click',()=>{
+    document.querySelector('.angledownV i').classList.toggle('rotate')
+})
+// ------------------list 1----------------------
+document.querySelector('.angleI1').addEventListener('click',()=>{
+    document.querySelector('.listAlitems').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI1').addEventListener('click',()=>{
+    document.querySelector('.angleI1').classList.toggle('rotate')
+})
+// ------------------list 2 ----------------------
+document.querySelector('.angleI2').addEventListener('click',()=>{
+    document.querySelector('.listAfter').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI2').addEventListener('click',()=>{
+    document.querySelector('.angleI2').classList.toggle('rotate')
+})
+// ------------------list 3----------------------
+document.querySelector('.angleI3').addEventListener('click',()=>{
+    document.querySelector('.Premierep').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI3').addEventListener('click',()=>{
+    document.querySelector('.angleI3').classList.toggle('rotate')
+})
+// ------------------list 4----------------------
+document.querySelector('.angleI4').addEventListener('click',()=>{
+    document.querySelector('.apple').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI4').addEventListener('click',()=>{
+    document.querySelector('.angleI4').classList.toggle('rotate')
+})
+// ------------------list 5----------------------
+document.querySelector('.angleI5').addEventListener('click',()=>{
+    document.querySelector('.davinci').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI5').addEventListener('click',()=>{
+    document.querySelector('.angleI5').classList.toggle('rotate')
+})
+// ------------------list 6----------------------
+document.querySelector('.angleI6').addEventListener('click',()=>{
+    document.querySelector('.motion').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI6').addEventListener('click',()=>{
+    document.querySelector('.angleI6').classList.toggle('rotate')
+})
+// ------------------list 7----------------------
+document.querySelector('.angleI7').addEventListener('click',()=>{
+    document.querySelector('.davici2').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI7').addEventListener('click',()=>{
+    document.querySelector('.angleI7').classList.toggle('rotate')
+})
+// ------------------list 8----------------------
+document.querySelector('.angleI8').addEventListener('click',()=>{
+    document.querySelector('.AddonsL').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI8').addEventListener('click',()=>{
+    document.querySelector('.angleI8').classList.toggle('rotate')
+})
+// ------------------list 9----------------------
+document.querySelector('.angleI9').addEventListener('click',()=>{
+    document.querySelector('.vidmaker').classList.toggle('listalltimesm')
+})
+document.querySelector('.angleI9').addEventListener('click',()=>{
+    document.querySelector('.angleI9').classList.toggle('rotate')
+})
+
+
+
+
+// ------------------------
+document.querySelector('.closeL-sm i').addEventListener('click',()=>{
+    document.querySelector('.container-list-sm').style.display='none';
+   
+});
+
+
+
+document.querySelector('.logoToggle i').addEventListener('click',()=>{
+    
+    document.querySelector('.container-list-sm').style.display='block';
+    
+
+})
+document.querySelector('.logoContact i').addEventListener('click',()=>{
+    
+    document.querySelector('.containerUser').style.display='block';
+
+    
+
+})
+document.querySelector('.closeLogo i').addEventListener('click',()=>{
+    
+    document.querySelector('.containerUser').style.display='none';
+
+    
+
+})
+// document.querySelector('.containerUser').addEventListener('click' , function(e){
+//     e.stopPropagation()
+// })
+
+
